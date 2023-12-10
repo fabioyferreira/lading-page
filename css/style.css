@@ -1,7 +1,7 @@
 body{
     display: flex;
     flex-direction: column;
-    background-color: #F7F7F7;
+    background-color: #f5f3f3;
     margin: 2px;
     padding: 2px;
     color: #28323C;
@@ -9,6 +9,7 @@ body{
     width: auto;
     align-content: center;
     color: maroon;
+    font-family: 'Roboto', sans-serif;
     
 }
 header{
@@ -44,6 +45,7 @@ li{
 }
 h1{
     font-weight: 2px;
+    font-family: 'Roboto', sans-serif;
 }
 main{
     display: flex;
@@ -53,7 +55,7 @@ main{
 h2{
     font-size: 25px;
     line-height: 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 p{
     line-height: 20px;
@@ -67,10 +69,6 @@ p{
     align-content: center;
     margin: 24px;
 }
-
-
-
-
 
 
 img{
@@ -112,15 +110,46 @@ img{
     justify-content: space-between;
     align-items: center;
     background-color: #EDF0F5;
+    font-family: 'Roboto', sans-serif;
 
 }
+.filiacao{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    align-content: center;
+    text-align: center;
+    margin: 16px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.contrato{
+    display: flex;
+    padding: 5px;
+    align-content: start;
+    align-items: center;
+    border: 2px solid #8a1313;
+    border-radius: 20px;
+    height: 30px;
+    width:200px;
+    background-color: #2e0505;
+    color: #EDF0F5;
+    justify-content: center; /*Centraliza o conteudo do botão*/
+    font-family: 'Roboto', sans-serif;
+    
+}
+
 #p{
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 #h2{
     display: flex;
     justify-content: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bloco2{
@@ -128,43 +157,48 @@ img{
     flex-direction: column;
     background-color: #fcfcfc;
     justify-content: center;
-    width: auto;
+   
     align-items: center;
     height: 700px;
     align-content: center;
     align-self: center;
+    font-family: 'Roboto', sans-serif;
+    width: auto;
   
 }
 .Join{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .promote{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 .money{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 .equipe{
     display: flex;
     flex-direction: column;
     background-color:#fcfcfc;
-    width: auto;
+    width: 100vh;
     height: 80px;
     text-align: center;
     justify-content: flex-start;
     margin-bottom: 16px;
     padding-top: 40px;
-    
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #28323C;
+    font-family: 'Roboto', sans-serif;
+    color: maroon;
     justify-content: center;
+    
    
 }
 
@@ -176,12 +210,9 @@ img{
     justify-items: center;
     justify-content: center;
     align-items: center;
-    align-content: center;
-
-    
-      
+    align-content: center; 
     text-align: center;
-    width: 100vw;
+    width: auto;
 }
 
 .colaboradores > section img{
@@ -189,6 +220,7 @@ img{
     flex-direction: column;
     border-radius: 50%;
     border: 5px solid rgb(87, 8, 8) 
+    
     
     
     
@@ -201,20 +233,22 @@ img{
     flex-direction: column;
     background-color: rgb(247, 245, 245);
     margin-bottom: 16px;
-    width: 100vw;  
+    width: 100%;  
+    justify-content: center;
+   
 }
 
 .nossos-clientes{
 background-color: rgb(247, 245, 245);
 display: flex;
 flex-direction: column;
-margin-bottom: 16px;
-margin-top: 30px;
-padding-top: 16px;
+
+
 margin: 16px;
 height: 100px;
-width: auto;
+width: 100%;
 justify-content: center;
+align-content: center;
 }
 
 
@@ -225,8 +259,8 @@ justify-content: center;
     margin: 16px;
     align-content: center;
 
-    justify-content: space-between;
-    width: 100vw;
+    justify-content: space-evenly;
+    width: 100%;
     height: 150px;
 
 
