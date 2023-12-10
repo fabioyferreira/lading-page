@@ -118,25 +118,35 @@
 																				
 																			</div>
 																			<div class="bloco4">
-																				<header class="enviar">
+																				<header class="formulario-enviar">
 																					
 																					<header><h2>Faça-nos uma pergunta!</h2</header>
 																				</header>
 																				<section class="caixa">
-																					<form id="escrever" name="post-email" method="post" action="PostEmail.php">
-																							<table class="comentar">
-																								<tr>
-																									<td><label for="Name">Name</label></td>
-																									<td><input type="text" name="Name" id="Name"></td>
-																								</tr>
-																								<tr>
-																									<td><label for="email">E-mail</label></td>
-																									<td><input type="Email" name="email" id="Email"></td>
-																								</tr>
-																								<td><lable for="email">Descrição</lable></td>
-																								<td><textarea name="Message" id="descricao" cols="45" rows="5" placeholder="Enter you message"> </textarea></td>
+																					<form id="escrever" name="post-email" method="post" action="">
+																							<div class="comentar">
+																								<div class="nome">
+																									<label for="Name">Name</label>
+																									<input type="text" name="Name" id="name">
+																									
+																								</div>
+																								<div class="email">
+																									
+																									<label for="email">E-mail</label>
+																									<input type="Email" name="email" id="Email">
+
+																									
+																								</div>
 																								
-																							</table>
+																							</div>
+
+																							<div>
+																								<div><lable for="email">Descrição</lable></div>
+																								<div><textarea name="Message" id="descricao" cols="45" rows="5" placeholder="Escreva sua pergunta aqui!"> </textarea></div>
+																							</div>
+																							<header class="botao-enviar">
+																								<h1>Enviar!</h1>
+																							</header>
 																							
 																					</form>
 																				</section>
